@@ -134,7 +134,7 @@ const Header: FC = () => {
                                     <NavLink className="button btn btn-common" activeClassName='' to='/post-job/'>Post a Job</NavLink>
                                 </li>
 
-                                <li className="nav-item dropdown">
+                                {/* <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
                                        aria-expanded="false">
                                         Language
@@ -147,7 +147,7 @@ const Header: FC = () => {
                                             <a className="dropdown-item" onClick={() => i18n.changeLanguage("bn")}>Bengali</a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
